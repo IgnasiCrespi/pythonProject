@@ -1,0 +1,24 @@
+#Implementa una aplicació que demani (i validi) les següents dades per teclat (registre):
+#-aula: numèric (entre 1 i 50)
+#-nom aula: text
+#-ip: text
+#-nombre pcs: numèric (entre 1 i 20)
+#Demana quants registres vol introduir i mostrar els resultats en forma de taula.
+
+def main():
+    thisdict = {}
+
+    x = int(input("Introdueix el nombre de registres que vols fer: "))
+
+    for i in range(x):
+        numaula = int(input("Quin és el número d'aula? "))
+        thisdict["Número d'aula"] = numaula
+        nomaula = input("Quin és el nom de l'aula? ")
+        thisdict["Nom d'aula"] =
+        ip = (input ("Quina és la IP? "))
+        fip.append(ip)
+        numpcs = int(input("Quin és el número de PCs? "))
+        fnumpcs.append(numpcs)
+
+if __name__ == "__main__":
+    main()

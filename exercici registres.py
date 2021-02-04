@@ -9,16 +9,26 @@ def main():
     thisdict = {}
 
     x = int(input("Introdueix el nombre de registres que vols fer: "))
-
+    fnumaula = []
+    fnomaula = []
+    fip = []
+    fnumpcs = []
     for i in range(x):
         numaula = int(input("Quin és el número d'aula? "))
-        thisdict["Número d'aula"] = numaula
+        fnumaula.append(numaula)
+        thisdict["Número d'aula"] = fnumaula
         nomaula = input("Quin és el nom de l'aula? ")
-        thisdict["Nom d'aula"] =
+        fnomaula.append(nomaula)
+        thisdict["Nom d'aula"] = fnomaula
         ip = (input ("Quina és la IP? "))
         fip.append(ip)
+        thisdict["IP"] = fip
         numpcs = int(input("Quin és el número de PCs? "))
         fnumpcs.append(numpcs)
+        thisdict["Número de PCs"] = fnumpcs
+
+    print(thisdict)
+
 
 if __name__ == "__main__":
     main()
